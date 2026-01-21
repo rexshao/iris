@@ -1,13 +1,11 @@
 CMAKE_MINIMUM_REQUIRED (VERSION 3.12)
 PROJECT (iris_demo)
 
-######
-
 SET (STDLIB stdc++)
 
 ENABLE_TESTING ()
 
-OPTION (ENABLE_COROUTINE "Enable Iris Coroutine support" ON)
+OPTION (ENABLE_COROUTINE "Enable Iristorm Coroutine support" ON)
 OPTION (ENABLE_LUA "Enable Lua Binding support" ON)
 OPTION (ENABLE_ASAN "Enable Address Sanitizer" OFF)
 
@@ -205,4 +203,5 @@ IF (ENABLE_LUA)
 		TARGET_LINK_LIBRARIES (iris_lua_demo m ${STDLIB} ${LUALIB})
 	ENDIF (MSVC)
 ENDIF (ENABLE_LUA)
+
 

@@ -1,11 +1,11 @@
 /*
-The Iris Concurrency Framework
+The Iristorm Concurrency Framework
 
 This software is a C++ 20 Header-Only reimplementation of core part from project PaintsNow.
 
 The MIT License (MIT)
 
-Copyright (c) 2014-2025 PaintDream
+Copyright (c) 2014-2026 PaintDream
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
